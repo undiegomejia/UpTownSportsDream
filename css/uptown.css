@@ -1,0 +1,540 @@
+@import url(https://fonts.googleapis.com/css?family=Quantico);
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Global Styles */
+body {
+  margin-top: 15px;
+  background-color: #222;
+}
+@media (min-width: 768px) {
+  body {
+    margin-top: 15px;
+  }
+}
+#wrapper {
+  padding-left: 0;
+}
+#page-wrapper {
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+}
+.huge {
+  font-size: 50px;
+  line-height: normal;
+}
+@media (min-width: 768px) {
+  #wrapper {
+    padding-left: 225px;
+    margin: 0 10%;
+  }
+  #page-wrapper {
+    padding: 10px;
+  }
+}
+/* Top Navigation */
+.top-nav {
+  padding: 0 15px;
+}
+.top-nav > li {
+  display: inline-block;
+  float: left;
+}
+.top-nav > li > a {
+  color: white;
+}
+.top-nav > li > a:hover,
+.top-nav > li > a:focus,
+.top-nav > .open > a,
+.top-nav > .open > a:hover,
+.top-nav > .open > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+.top-nav > .open > .dropdown-menu {
+  float: left;
+  position: absolute;
+  margin-top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.top-nav > .open > .dropdown-menu > li > a {
+  white-space: normal;
+}
+ul.message-dropdown {
+  padding: 0;
+  max-height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+li.message-preview {
+  width: 275px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+li.message-preview > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+li.message-footer {
+  margin: 5px 0;
+}
+ul.alert-dropdown {
+  width: 200px;
+}
+/* Side Navigation */
+@media (min-width: 768px) {
+  .side-nav {
+    position: fixed;
+    top: 65px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #222;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+  }
+  .side-nav > li > a {
+    width: 225px;
+  }
+  .side-nav li a:hover,
+  .side-nav li a:focus {
+    outline: none;
+    background-color: #000;
+  }
+}
+.side-nav > li > ul {
+  padding: 0;
+}
+.side-nav > li > ul > li > a {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999;
+}
+.side-nav > li > ul > li > a:hover {
+  color: #fff;
+}
+/* Flot Chart Containers */
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+/* Custom Colored Panels */
+.huge {
+  font-size: 40px;
+}
+.panel-green {
+  border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+  border-color: #5cb85c;
+  color: #fff;
+  background-color: #5cb85c;
+}
+.panel-green > a {
+  color: #5cb85c;
+}
+.panel-green > a:hover {
+  color: #3d8b3d;
+}
+.panel-red {
+  border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+  border-color: #d9534f;
+  color: #fff;
+  background-color: #d9534f;
+}
+.panel-red > a {
+  color: #d9534f;
+}
+.panel-red > a:hover {
+  color: #b52b27;
+}
+.panel-yellow {
+  border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading {
+  border-color: #f0ad4e;
+  color: #fff;
+  background-color: #f0ad4e;
+}
+.panel-yellow > a {
+  color: #f0ad4e;
+}
+.panel-yellow > a:hover {
+  color: #df8a13;
+}
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Global Styles */
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 50px;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.img-portfolio {
+  margin-bottom: 30px;
+}
+.img-hover:hover {
+  opacity: 0.8;
+}
+/* Home Page Carousel */
+header.carousel {
+  height: 50%;
+}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+  height: 100%;
+}
+header.carousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/* 404 Page Styles */
+.error-404 {
+  font-size: 100px;
+}
+/* Pricing Page Styles */
+.price {
+  display: block;
+  font-size: 50px;
+  line-height: 50px;
+}
+.price sup {
+  top: -20px;
+  left: 2px;
+  font-size: 20px;
+}
+.period {
+  display: block;
+  font-style: italic;
+}
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .customer-img,
+  .img-related {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .img-portfolio {
+    margin-bottom: 15px;
+  }
+  header.carousel .carousel {
+    height: 70%;
+  }
+}
+/*-----UPTOWN SPORTS DREAM TEMPLATE----*/
+body {
+  color: #222222;
+  background-color: #f8f8f8;
+}
+p {
+  color: #222222;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Quantico';
+}
+.h1,
+h1,
+.h2,
+h2 {
+  color: #ffa200;
+}
+a,
+.btn-link {
+  color: #ff5300;
+}
+a:hover,
+.btn-link:focus,
+.btn-link:hover {
+  color: #e94c00;
+}
+.panel {
+  border-radius: 0;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 30px 0 20px;
+  border-bottom: none;
+}
+.panel-heading,
+.panel-default > .panel-heading {
+  background-color: #f8f8f8;
+  color: #333333;
+}
+.well,
+.panel-body {
+  background-color: #eeeeee;
+  color: #333333;
+}
+.jumbotron {
+  background-color: #999999;
+  color: #333333;
+}
+#page-wrapper {
+  background-color: #f8f8f8;
+}
+#page-wrapper .container {
+  width: 100%;
+}
+a.navbar-brand {
+  height: 100%;
+  font-family: Quantico;
+  color: #ff5300 !important;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin: 7px;
+}
+.navbar-brand > img {
+  max-width: 220px;
+}
+.navbar .container {
+  width: 100%;
+}
+.navbar-default {
+  background: #010d19;
+}
+.navbar-default.sidebar {
+  background: #f1f1f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #dbdbdb;
+  font-family: 'Quantico';
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background: #f1f1f1;
+}
+.sidebar ul li {
+  border-bottom: 1px solid #e7e7e7;
+  display: block;
+  width: 100%;
+}
+#leftMenu .accordion-group {
+  margin-bottom: 0px;
+  border: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+#leftMenu .accordion-heading {
+  border-bottom: 1px solid #383838;
+  list-style-type: none;
+}
+#leftMenu .accordion-heading a {
+  color: #eeeeee;
+  /* text color */
+  /* drop shadow */
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  background: black;
+  padding: 15px;
+  font-family: 'Quantico';
+  text-transform: uppercase;
+}
+#leftMenu .accordion-heading a:hover {
+  color: #FFFFFF;
+  background: #ff5300;
+}
+#leftMenu .accordion-heading .active {
+  width: 182px;
+  height: 34px;
+  border: 1px solid #5b5b5b;
+  /* inner stroke */
+  background-color: #353535;
+}
+.accordion-inner {
+  color: white;
+}
+.accordion-inner li {
+  list-style: none;
+}
+.accordion-inner li a {
+  display: block;
+  padding: 10px 15px;
+  color: #F8F8F8;
+  background: #585757;
+  border-bottom: solid 1px #333;
+  font-family: 'Quantico';
+  text-transform: uppercase;
+}
+.accordion-inner li a:hover,
+.accordion-inner li a:focus {
+  text-decoration: none;
+  background-color: #797979;
+}
+.accordion-inner ul {
+  padding: 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Quantico';
+  text-transform: uppercase;
+  color: #999999;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #ff5300;
+}
+.navbar-nav > li.active > a {
+  background-color: #ff5300 !important;
+  color: white!important;
+}
+.navbar-nav > li.sports > a {
+  background-color: #ffa200 !important;
+  color: white!important;
+}
+.navbar-nav > li.casino > a {
+  background-color: #084dbb !important;
+  color: white!important;
+}
+.navbar-nav > li.horses > a {
+  background-color: #00bd7a !important;
+  color: white!important;
+}
+.navbar-right a {
+  float: left;
+  display: inline-block;
+  margin: 12px 10px 12px 0;
+}
+.navbar-right {
+  margin: 0;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: inherit;
+}
+.top-nav > li > a {
+  background-color: #084dbb;
+  color: #f8f8f8;
+}
+.top-nav > li > a:hover,
+.top-nav > li > a:focus,
+.top-nav > .open > a,
+.top-nav > .open > a:hover,
+.top-nav > .open > a:focus {
+  background-color: #1670ff;
+}
+.top-nav > .open > .dropdown-menu > li > a {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.btn {
+  border-radius: 0;
+  border: 0;
+}
+.list-group-item:first-child {
+  border-radius: 0;
+}
+.btn-primary {
+  background-color: #ff5300;
+}
+.btn-primary:hover {
+  background-color: #e94c00;
+}
+.btn-success {
+  background-color: #00bd7a;
+}
+.btn-success:hover {
+  background-color: #00ffa5;
+}
+.btn-warning {
+  background-color: #ffa200;
+}
+.btn-warning:hover {
+  background-color: #e99400;
+}
+.btn-info {
+  background-color: #084dbb;
+}
+.btn-info:hover {
+  background-color: #1670ff;
+}
+.btn-danger {
+  background-color: #d53828;
+}
+.btn-danger:hover {
+  background-color: #d53828;
+}
+.btn-link {
+  color: #ff5300;
+}
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: none;
+}
+.alert {
+  color: white;
+  border-radius: 0;
+}
+.alert-success {
+  background-color: #00bd7a;
+}
+.alert-info {
+  background: #084dbb;
+}
+.alert-warning {
+  background-color: #ffa200;
+}
+.alert-danger {
+  background-color: #d53828;
+}
+.progress-bar {
+  background-color: #084dbb;
+}
+.progress-bar-success {
+  background-color: #00bd7a;
+}
+.progress-bar-warning {
+  background-color: #ffa200;
+}
+.progress-bar-danger {
+  background-color: #d53828;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  background-color: #222222;
+}

@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Quantico);
+
+@import 'variables.less';
+@import 'sb-admin.less';
+@import "modern-business.less";
+
+/*-----UPTOWN SPORTS DREAM TEMPLATE----*/
+body{
+  color:@gray-light;
+  background-color: @gray-darker;
+}
+p{
+  color: @gray-lighter;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Quantico';
+}
+
+.h1, h1, .h2, h2{
+    color:@brand-warning;
+}
+a, .btn-link{
+  color: @brand-primary;
+}
+a:hover, .btn-link:focus, .btn-link:hover{
+  color: @brand-primaryhover;
+}
+.panel {
+  border-radius: 0;
+}
+.page-header{
+    padding-bottom: 9px;
+    margin: 30px 0 20px;
+    border-bottom: none;
+}
+.panel-heading, .panel-default>.panel-heading{
+  background-color: @gray-darker;
+  color: @gray-light;
+}
+.well, .panel-body{
+  background-color: @gray-dark;
+  color:@gray-light;
+}
+.jumbotron{
+  background-color: @gray;
+  color:@gray-light;
+}
+#page-wrapper{
+  background-color: @gray-darker;
+}
+#page-wrapper .container {
+  width: 100%;
+}
+a.navbar-brand {
+  height: 100%;
+  font-family: Quantico;
+  color: @brand-primary!important;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin: 7px;
+}
+.navbar-brand > img {
+  max-width: 220px;
+}
+.navbar .container {
+  width: 100%;
+}
+.navbar-default {
+  background: #010d19;
+}
+.navbar-default.sidebar {
+  background: #f1f1f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #dbdbdb;
+  font-family: 'Quantico';
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover , .navbar-default .navbar-nav > li > a:focus{
+  background: #f1f1f1;
+}
+.sidebar ul li {
+  border-bottom: 1px solid #e7e7e7;
+  display: block;
+  width: 100%;
+}
+#leftMenu .accordion-group {
+  margin-bottom: 0px;
+  border: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+#leftMenu .accordion-heading {
+      border-bottom: 1px solid #383838;
+    list-style-type: none;
+}
+#leftMenu .accordion-heading a {
+  color: @gray-lighter;
+  /* text color */
+  /* drop shadow */
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  background: black;
+  padding:  15px;
+  font-family: 'Quantico';
+  text-transform: uppercase;
+}
+#leftMenu .accordion-heading a:hover {
+      color: #FFFFFF;
+    background: @brand-primary;
+}
+#leftMenu .accordion-heading .active {
+  width: 182px;
+  height: 34px;
+  border: 1px solid #5b5b5b;
+  /* inner stroke */
+  background-color: #353535;
+}
+.accordion-inner {
+  color: white;
+}
+.accordion-inner li {
+  list-style: none;
+}
+.accordion-inner li a {
+  display: block;
+  padding: 10px 15px;
+  color: #F8F8F8;
+  background: #585757;
+  border-bottom: solid 1px #333;
+  font-family: 'Quantico';
+  text-transform: uppercase;
+}
+.accordion-inner li a:hover,
+.accordion-inner li a:focus {
+  text-decoration: none;
+  background-color: #797979;
+}
+.accordion-inner ul {
+  padding: 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Quantico';
+  text-transform: uppercase;
+  color: @gray-light;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: @brand-primary;
+}
+.navbar-nav > li.active > a {
+  background-color: @brand-primary!important;
+  color: white!important;
+}
+.navbar-nav > li.sports > a {
+  background-color: @brand-warning!important;
+  color: white!important;
+}
+.navbar-nav > li.casino > a {
+  background-color: @brand-info!important;
+  color: white!important;
+}
+.navbar-nav > li.horses > a {
+  background-color: @brand-success!important;
+  color: white!important;
+}
+
+.navbar-right a {
+    float: left;
+    display: inline-block;
+    margin: 12px 10px 12px 0;
+}
+
+.navbar-right {
+    margin: 0;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.top-nav > li > a {
+    background-color: @brand-info;
+    color:@gray-lightest;
+}
+
+.top-nav > li > a:hover, .top-nav > li > a:focus, .top-nav > .open > a, .top-nav > .open > a:hover, .top-nav > .open > a:focus{
+  background-color: @brand-infohover;
+}
+
+.top-nav > .open > .dropdown-menu > li > a {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.btn {
+  border-radius: 0;
+  border:0;
+}
+.list-group-item:first-child {
+  border-radius: 0;
+}
+.btn-primary {
+  background-color: @brand-primary;
+}
+.btn-primary:hover {
+  background-color: @brand-primaryhover;
+}
+.btn-success {
+  background-color: @brand-success;
+}
+.btn-success:hover {
+  background-color: @brand-successhover;
+}
+.btn-warning {
+  background-color: @brand-warning;
+}
+.btn-warning:hover {
+  background-color: @brand-warninghover;
+}
+.btn-info {
+  background-color: @brand-info;
+}
+.btn-info:hover {
+  background-color: @brand-infohover;
+}
+.btn-danger {
+  background-color: @brand-danger;
+}
+.btn-danger:hover {
+  background-color: @brand-dangerhover;
+}
+.btn-link {
+  color: @brand-primary;
+}
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: none;
+}
+.alert {
+  color: white;
+  border-radius: 0;
+}
+.alert-success {
+  background-color: @brand-success;
+}
+.alert-info {
+  background: @brand-info;
+}
+.alert-warning {
+  background-color: @brand-warning;
+}
+.alert-danger {
+  background-color: @brand-danger;
+}
+.progress-bar{
+  background-color: @brand-info;
+}
+.progress-bar-success {
+  background-color: @brand-success;
+}
+.progress-bar-warning {
+  background-color: @brand-warning;
+}
+.progress-bar-danger {
+  background-color: @brand-danger;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  background-color: #222222;
+}
