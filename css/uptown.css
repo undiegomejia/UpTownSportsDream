@@ -658,4 +658,122 @@ ul.teams-acro li {
 a.game-view-cta {
   margin: 20px 0;
   padding: 20px 10px;
+  width: 100%;
+}
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top: 0;
+    width: 100%;
+  }
+  #sidebar.affix {
+    position: fixed;
+    top: 65px;
+    width: auto;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  #sidebar.affix {
+    position: relative;
+  }
+}
+.affix,
+.affix-top {
+  position: static;
+}
+/*-------------
+    BETSLIP
+--------------*/
+button.betslip-collapse {
+  background-color: transparent;
+  border: none;
+}
+button.remove-selected {
+  background-color: transparent;
+  border: none;
+}
+.betslip-title,
+.picks-bubble {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.betslip-title {
+  margin: 0;
+  padding: 0;
+}
+.betslip-mainheader {
+  background-color: #444;
+  padding: 10px;
+}
+span.picks-bubble {
+  background: orange;
+  border-radius: 100%;
+  padding: 1% 7%;
+}
+.event-bet {
+  padding: 0;
+  background: #FFFFFF;
+  color: black;
+  margin-bottom: 5px;
+}
+.event-header {
+  padding: 10px;
+}
+.event-header h2 {
+  color: #222;
+  margin: 5px 0;
+  font-size: 15px;
+  padding: 0;
+}
+.event-body,
+.event-body p {
+  color: black;
+}
+p.competitors {
+  margin: 0;
+  padding: 0;
+}
+.event-type {
+  padding: 0;
+  color: #969696;
+}
+.event-footer {
+  padding: 0;
+  margin: 0;
+}
+.event-footer figure {
+  padding: 15px;
+}
+.event-remove {
+  border: none;
+  background-color: transparent;
+  color: #FF5300;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+}
+p.league-time {
+  padding: 0;
+  color: #636363;
+}
+.betslip-footer {
+  margin: 0;
+  padding: 10px;
+  background: #444444;
+}
+.footer-header h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.footer-header {
+  padding: 0;
+}
+.selected-list {
+  padding: 0;
+  margin: 10px 0;
+}
+.selected-list dd {
+  text-align: right;
 }

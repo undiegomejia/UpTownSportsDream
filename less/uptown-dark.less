@@ -25,14 +25,24 @@ h5 {
   font-family: 'Quantico';
 }
 
+.footer {
+    background-color: #333333;
+    display: block;
+    padding: 30px;
+    margin: 0;
+}
+
 .h1, h1, .h2, h2{
-    color:@brand-warning;
+    color:@gray-lightest;
 }
 a, .btn-link{
   color: @brand-primary;
 }
 a:hover, .btn-link:focus, .btn-link:hover{
   color: @brand-primaryhover;
+}
+.fixed {
+    position: fixed;
 }
 .panel {
   border-radius: 0;
@@ -304,5 +314,6 @@ a.navbar-brand {
 .list-group-item-text{
 color:@gray-darker;
 }
+
 
 @import "lines.less";
